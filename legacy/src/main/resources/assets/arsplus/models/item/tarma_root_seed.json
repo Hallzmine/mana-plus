@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "arsplus:item/tarma_root_seed"
+  }
+}

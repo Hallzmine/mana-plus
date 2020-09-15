@@ -1,0 +1,1 @@
+execute as @a[scores={mb_placeholder=1..}] run function arsplus:mb_placeholder

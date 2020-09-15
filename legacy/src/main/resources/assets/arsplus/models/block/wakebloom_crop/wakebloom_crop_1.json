@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "arsplus:block/wakebloom_crop/wakebloom_crop_1"
+  }
+}
