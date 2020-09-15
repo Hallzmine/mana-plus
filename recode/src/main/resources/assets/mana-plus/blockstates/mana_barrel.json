@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "mana-plus:block/mana_barrel" }
+  }
+}

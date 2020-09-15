@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "age=0": { "model": "mana-plus:block/desert_nova_crop/desert_nova_crop_1"},
+    "age=1": { "model": "mana-plus:block/desert_nova_crop/desert_nova_crop_2"},
+    "age=2": { "model": "mana-plus:block/desert_nova_crop/desert_nova_crop_2"},
+    "age=3": { "model": "mana-plus:block/desert_nova_crop/desert_nova_crop_2"},
+    "age=4": { "model": "mana-plus:block/desert_nova_crop/desert_nova_crop_3"},
+    "age=5": { "model": "mana-plus:block/desert_nova_crop/desert_nova_crop_3"},
+    "age=6": { "model": "mana-plus:block/desert_nova_crop/desert_nova_crop_3"},
+    "age=7": { "model": "mana-and-artifice:block/plants/desert_nova"}
+  }
+}

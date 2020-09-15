@@ -1,0 +1,65 @@
+{
+  "type": "mana-and-artifice:ritual",
+  "tier": 1,
+  "pattern":
+  [
+    [ 0, 1, 0, 0, 0, 1, 0 ],
+    [ 0, 0, -1, -1, -1, 0, 0 ],
+    [ 0, 0, 0, -1, 0, -1, -1 ],
+    [ 0, 1, -1, 1, -1, 1, 0 ],
+    [ -1, -1, 0, -1, 0, 0, 0 ],
+    [ 0, 0, 0, 1, 0, 0, 0 ],
+    [ 0, 0, 0, -1, 0, 0, 0 ]
+  ],
+  "reagents":
+  [
+    " E   F ",
+    "       ",
+    "       ",
+    " S A S ",
+    "       ",
+    "   B   ",
+    "       "
+  ],
+  "keys":
+  {
+    "B":
+    {
+      "item": "minecraft:glowstone_dust",
+      "optional": false,
+      "consume": true
+    },
+    "E":
+    {
+      "item": "mana-and-artifice:stone_rune_blue",
+      "optional": false,
+      "consume": true
+    },
+    "F":
+    {
+      "item": "mana-and-artifice:stone_rune_magenta",
+      "optional": false,
+      "consume": true
+    },
+    "S":
+    {
+      "item": "mana-and-artifice:arcane_compound",
+      "optional": false,
+      "consume": true
+    },
+    "A":
+    {
+      "item": "minecraft:diamond",
+      "optional": false,
+      "consume": true
+    }
+  },
+  "manaweave":
+  [
+    "mana-and-artifice:manaweave_patterns/circle"
+  ],
+  "parameters":
+  {
+    "beamColor": "0x48e022"
+  }
+}
