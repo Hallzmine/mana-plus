@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:chance",
+      "config": {
+        "chance": 50
+      }
+    },
+    "feature": {
+      "type": "minecraft:flower",
+      "config": {
+        "can_replace": false,
+        "project": false,
+        "need_water": false,
+        "xspread": 3,
+        "yspread": 3,
+        "zspread": 3,
+        "tries": 0,
+        "state_provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:birch_planks"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:spruce_planks"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:obsidian"
+              }
+            }
+          ]
+        },
+        "block_placer": {
+          "type": "minecraft:simple_block_placer"
+        },
+        "whitelist": [],
+        "blacklist": []
+      }
+    }
+  }
+}
