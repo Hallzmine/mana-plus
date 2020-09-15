@@ -13,10 +13,10 @@
         "can_replace": false,
         "project": false,
         "need_water": false,
-        "xspread": 3,
+        "xspread": 7,
         "yspread": 3,
-        "zspread": 3,
-        "tries": 0,
+        "zspread": 7,
+        "tries": 128,
         "state_provider": {
           "type": "minecraft:weighted_state_provider",
           "entries": [

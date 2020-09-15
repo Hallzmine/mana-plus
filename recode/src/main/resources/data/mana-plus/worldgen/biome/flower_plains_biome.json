@@ -8,10 +8,10 @@
   "category": "plains",
   "player_spawn_friendly": false,
   "effects": {
-    "sky_color": 64511,
-    "fog_color": 8806116,
-    "water_color": 16777215,
-    "water_fog_color": 16777215,
+    "sky_color": 8032511,
+    "fog_color": 12764927,
+    "water_color": 255,
+    "water_fog_color": 255,
     "grass_color": 116294,
     "foliage_color": 117566,
     "particle": {
