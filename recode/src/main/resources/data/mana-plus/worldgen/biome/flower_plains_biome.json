@@ -18,7 +18,7 @@
       "options": {
         "type": "mana-and-artifice:arcane"
       },
-      "probability": 0.001
+      "probability": 0.02
     }
   },
   "starts": [],
