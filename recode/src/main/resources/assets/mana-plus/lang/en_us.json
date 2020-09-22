@@ -8,6 +8,7 @@
   "block.mana-plus.wakebloom_crop":  "Wakebloom Seeds",
   "block.mana-plus.aum_crop":  "Aum Seeds",
   "block.mana-plus.cerublossom_crop":  "Cerublossom Seeds",
-  "itemGroup.manaPlusTab": "Hallzmine's Mana Plus"
-
+  "itemGroup.manaPlusTab": "Hallzmine's Mana Plus",
+  "mana-plus:rituals/flower-plains": "Ritual of the Flowering Plains",
+  "entity.mana-plus.protector": "Protector"
 }

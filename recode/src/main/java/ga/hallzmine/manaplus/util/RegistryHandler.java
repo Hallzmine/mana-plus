@@ -2,10 +2,14 @@ package ga.hallzmine.manaplus.util;
 
 import ga.hallzmine.manaplus.ManaPlus;
 import ga.hallzmine.manaplus.blocks.*;
+import ga.hallzmine.manaplus.entities.ProtectorEntity;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.entity.EntityClassification;
+import net.minecraft.entity.EntityType;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -14,10 +18,12 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class RegistryHandler {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ManaPlus.MOD_ID);
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, ManaPlus.MOD_ID);
+    public static final DeferredRegister<EntityType<?>> ENTITY_TYPES = DeferredRegister.create(ForgeRegistries.ENTITIES, ManaPlus.MOD_ID);
 
     public static void init() {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        ENTITY_TYPES.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 
     //Items
@@ -33,4 +39,8 @@ public class RegistryHandler {
     public static final RegistryObject<Block> WAKEBLOOM_CROP = BLOCKS.register("wakebloom_crop", () -> new WakebloomCrop(Block.Properties.from(Blocks.WHEAT)));
     public static final RegistryObject<Block> AUM_CROP = BLOCKS.register("aum_crop", () -> new AumCrop(Block.Properties.from(Blocks.WHEAT)));
     public static final RegistryObject<Block> CERUBLOSSOM_CROP = BLOCKS.register("cerublossom_crop", () -> new CerublossomCrop(Block.Properties.from(Blocks.WHEAT)));
+
+    //Entity Types
+    public static final RegistryObject<EntityType<ProtectorEntity>> PROTECTOR = ENTITY_TYPES.register("protector", () -> EntityType.Builder.create(ProtectorEntity::new, EntityClassification.MONSTER).size(1.0f, 4.5f).build(new ResourceLocation(ManaPlus.MOD_ID, "protector").toString()));
+
 }
