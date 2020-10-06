@@ -27,17 +27,12 @@
       {
         "type": "mana-plus:protector",
         "weight": 100,
-        "minCount": 0,
-        "maxCount": 0
+        "minCount": 4,
+        "maxCount": 4
       }
     ]
   },
-  "spawn_costs": {
-    "mana-plus:protector": {
-      "energy_budget": 0.12,
-      "charge": 1
-    }
-  },
+  "spawn_costs": {},
   "carvers": {},
   "features": [
     [

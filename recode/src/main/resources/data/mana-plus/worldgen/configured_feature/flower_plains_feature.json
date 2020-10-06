@@ -11,7 +11,7 @@
         "decorator": {
           "type": "minecraft:chance",
           "config": {
-            "chance": 2
+            "chance": 2.5
           }
         },
         "feature": {
@@ -20,9 +20,9 @@
             "can_replace": false,
             "project": false,
             "need_water": false,
-            "xspread": 30,
+            "xspread": 10,
             "yspread": 1,
-            "zspread": 30,
+            "zspread": 10,
             "tries": 128,
             "state_provider": {
               "type": "minecraft:weighted_state_provider",

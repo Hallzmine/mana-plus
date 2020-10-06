@@ -1,19 +1,20 @@
 package ga.hallzmine.manaplus.entities;
 
 import net.minecraft.block.BlockState;
-import net.minecraft.entity.CreatureEntity;
-import net.minecraft.entity.EntityType;
-import net.minecraft.entity.MobEntity;
+import net.minecraft.entity.*;
 import net.minecraft.entity.ai.attributes.AttributeModifierMap;
 import net.minecraft.entity.ai.attributes.Attributes;
 import net.minecraft.entity.ai.goal.*;
 import net.minecraft.entity.monster.MonsterEntity;
+import net.minecraft.entity.passive.AmbientEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.util.SoundEvents;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import net.minecraft.world.biome.Biomes;
+import net.minecraft.world.gen.Heightmap;
 
 import javax.annotation.Nullable;
 
@@ -29,6 +30,7 @@ public class ProtectorEntity extends MonsterEntity {
                 .func_233815_a_(Attributes.field_233818_a_, 60.0D)
                 .func_233815_a_(Attributes.field_233821_d_, 0.25D)
                 .func_233815_a_(Attributes.field_233823_f_, 15.0D);
+
     }
 
     @Override
@@ -52,5 +54,6 @@ public class ProtectorEntity extends MonsterEntity {
 
     @Override
     protected SoundEvent getHurtSound(DamageSource damageSourceIn) { return SoundEvents.BLOCK_STONE_BREAK; }
+
 
 }
