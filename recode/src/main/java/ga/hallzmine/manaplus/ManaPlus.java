@@ -29,7 +29,16 @@ import org.apache.logging.log4j.Logger;
 import ga.hallzmine.manaplus.util.RegistryHandler;
 import java.util.stream.Collectors;
 
-// The value here should match an entry in the META-INF/mods.toml file
+//To Do :D
+// + Fix the spawning of protectors in the sunflower plains dimension
+// + Add a statement if the player is in the sunflower plains dimension for the ritual to take them home (currently impossible to leave dimension)
+// + Add mana sickness and apply it to the player when in dimension
+// + Add mana fluid
+// + Add back in mana barrels and mana honey
+// + Add hellfire campfires
+// cry
+// ???
+// profit!
 @Mod("mana-plus")
 public class ManaPlus
 {
