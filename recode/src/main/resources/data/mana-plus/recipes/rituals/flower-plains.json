@@ -1,6 +1,6 @@
 {
   "type": "mana-and-artifice:ritual",
-  "tier": 1,
+  "tier": 4,
   "pattern":
   [
     [ 0, 1, 0, 0, 0, 1, 0 ],

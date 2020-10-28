@@ -71,6 +71,7 @@ public class RegistryHandler {
     //Entity Types
     public static final RegistryObject<EntityType<ProtectorEntity>> PROTECTOR = ENTITY_TYPES.register("protector", () -> EntityType.Builder.create(ProtectorEntity::new, EntityClassification.AMBIENT).size(1.0f, 4.5f).build(new ResourceLocation(ManaPlus.MOD_ID, "protector").toString()));
 
+
     //Effects
     public static final RegistryObject<Effect> MANA_SICKNESS = EFFECTS.register("mana_sickness", () -> new EffectManaSickness(EffectType.HARMFUL, 0));
     //Fluids

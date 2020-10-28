@@ -48,13 +48,13 @@ public class ManaPlus
 
     @SubscribeEvent
     public void onRegisterGuidebooks(RegisterGuidebooksEvent event) {
-        event.getRegistry().AddGuidebook(new ResourceLocation("mana-plus", "guide/guidebook_en_us.json"));
+        event.getRegistry().addGuidebookPath(new ResourceLocation("mana-plus", "guide"));
     }
 
     private void setup(final FMLCommonSetupEvent event)
     {
         DeferredWorkQueue.runLater(() -> {
-            GlobalEntityTypeAttributes.put(RegistryHandler.PROTECTOR.get(), ProtectorEntity.setCustomAttributes().func_233813_a_());
+            GlobalEntityTypeAttributes.put(RegistryHandler.PROTECTOR.get(), ProtectorEntity.setCustomAttributes().create());
         });
     }
 

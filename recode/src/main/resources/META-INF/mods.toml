@@ -38,20 +38,20 @@ An add on for Mithion's Mana and Artifice.
 [[dependencies.mana-plus]]
 modId="forge"
 mandatory=true
-versionRange="[33,)"
+versionRange="[34,)"
 ordering="NONE"
 side="BOTH"
 
 [[dependencies.mana-plus]]
 modId="minecraft"
 mandatory=true
-versionRange="[1.16.2]"
+versionRange="[1.16.3]"
 ordering="NONE"
 side="BOTH"
 
 [[dependencies.mana-plus]]
 modId="mana-and-artifice"
 mandatory=true
-versionRange="[1.0.7.1,)"
+versionRange="[1.0.8.2,)"
 ordering="NONE"
 side="BOTH"

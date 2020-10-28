@@ -20,7 +20,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.1.1'
+version = '1.1.2'
 group = 'ga.hallzmine.mana-plus' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'mana-plus'
 
@@ -33,7 +33,8 @@ minecraft {
     // stable_#            Stables are built at the discretion of the MCP team.
     // Use non-default mappings at your own risk. they may not always work.
     // Simply re-run your setup task after changing the mappings to update your workspace.
-    mappings channel: 'snapshot', version: '20200514-1.16'
+    //2020/05/14
+    mappings channel: 'snapshot', version: '20200916-1.16.2'
     // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
     
     // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
@@ -94,13 +95,13 @@ minecraft {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.2-33.0.61'
+    minecraft 'net.minecraftforge:forge:1.16.3-34.1.23'
 
-    compileOnly 'blank:mana-and-artifice-1.0.7.1:api' //api, compilation only
-    runtimeOnly fg.deobf('blank:mana-and-artifice:1.0.7.1') //mod itself, deobf for runtime
+    compileOnly 'blank:mana-and-artifice-1.0.8.2:api' //api, compilation only
+    runtimeOnly fg.deobf('blank:mana-and-artifice:1.0.8.2') //mod itself, deobf for runtime
 
-    runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:1.16.2-4.0.0.1")
-    compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:1.16.2-4.0.0.1:api")
+    runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:1.16.3-4.0.2.0")
+    compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:1.16.3-4.0.2.0:api")
 
 }
 
