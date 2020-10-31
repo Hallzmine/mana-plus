@@ -1,0 +1,53 @@
+{
+  "type": "mana-and-artifice:ritual",
+  "tier": 4,
+  "pattern":
+  [
+    [ 0, 0, 0, 1, 0, 0, 0 ],
+    [ 0, 0, 0, -1, 0, 0, 0 ],
+    [ 0, 0, 0, -1, 0, 0, 0 ],
+    [ 1, -1, -1, 1, -1, -1, 1 ],
+    [ 0, 0, 0, -1, 0, 0, 0 ],
+    [ 0, 0, 0, -1, 0, 0, 0 ],
+    [ 0, 0, 0, 1, 0, 0, 0 ]
+  ],
+  "reagents":
+  [
+    "   A   ",
+    "       ",
+    "       ",
+    "C  B  C",
+    "       ",
+    "       ",
+    "   A   "
+  ],
+  "keys":
+  {
+    "B":
+    {
+      "item": "mana-and-artifice:cerublossom",
+      "optional": false,
+      "consume": true
+    },
+    "A":
+    {
+      "item": "minecraft:dirt",
+      "optional": false,
+      "consume": true
+    },
+    "C":
+    {
+      "item": "minecraft:water_bucket",
+      "optional": false,
+      "consume": false
+    }
+  },
+  "manaweave":
+  [
+    "mana-and-artifice:manaweave_patterns/circle"
+  ],
+  "parameters":
+  {
+    "beamColor": "0x48e022"
+  }
+}

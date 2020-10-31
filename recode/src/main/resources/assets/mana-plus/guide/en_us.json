@@ -18,5 +18,25 @@
         "location": "mana-plus:rituals/flower-plains"
       }
     ]
+  },
+  "Return to Overworld": {
+    "index": 0,
+    "category": "rituals",
+    "sections": [
+      {
+        "type": "title",
+        "value": "Return to Overworld"
+      },
+      {
+        "type": "text",
+        "value": "A cheap, but complex, ritual to summon a portal to transport you home, or at least to the overworld."
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "ritual",
+        "location": "mana-plus:rituals/overworld"
+      }
+    ]
   }
 }

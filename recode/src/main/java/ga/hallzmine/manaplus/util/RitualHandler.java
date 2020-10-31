@@ -15,6 +15,7 @@ public class RitualHandler {
     @SubscribeEvent
     public static void onRitualsRegistry(final RegistryEvent.Register<RitualEffect> event) {
         event.getRegistry().register(new RitualEffectFlowerPlains(new ResourceLocation("mana-plus", "rituals/flower-plains")).setRegistryName(new ResourceLocation("mana-plus", "flower-plains-ritual-effect")));
+        event.getRegistry().register(new RitualEffectFlowerPlains(new ResourceLocation("mana-plus", "rituals/overworld")).setRegistryName(new ResourceLocation("mana-plus", "overworld-ritual-effect")));
         LOGGER.debug("[mana-plus] Rituals Registered");
     }
 }

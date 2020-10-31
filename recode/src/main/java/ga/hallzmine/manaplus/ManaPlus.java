@@ -31,7 +31,7 @@ import java.util.stream.Collectors;
 
 //To Do :D
 // + Fix the spawning of protectors in the sunflower plains dimension
-// + Add a statement if the player is in the sunflower plains dimension for the ritual to take them home (currently impossible to leave dimension)
+// + >>> Should be done, needs testing | Add a statement if the player is in the sunflower plains dimension for the ritual to take them home (currently impossible to leave dimension)
 // + Add mana sickness and apply it to the player when in dimension
 // + Add mana fluid
 // + Add back in mana barrels and mana honey
