@@ -2,6 +2,7 @@ package ga.hallzmine.manaplus;
 
 import com.ma.api.guidebook.RegisterGuidebooksEvent;
 import ga.hallzmine.manaplus.entities.ProtectorEntity;
+import ga.hallzmine.manaplus.entities.SeraphimEntity;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.client.renderer.RenderType;
@@ -27,6 +28,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import ga.hallzmine.manaplus.util.RegistryHandler;
+import software.bernie.geckolib3.GeckoLib;
+
 import java.util.stream.Collectors;
 
 //To Do :D
@@ -53,6 +56,7 @@ public class ManaPlus
         RegistryHandler.init();
 
         MinecraftForge.EVENT_BUS.register(this);
+        GeckoLib.initialize();
     }
 
     @SubscribeEvent
@@ -64,6 +68,7 @@ public class ManaPlus
     {
         DeferredWorkQueue.runLater(() -> {
             GlobalEntityTypeAttributes.put(RegistryHandler.PROTECTOR.get(), ProtectorEntity.setCustomAttributes().create());
+            GlobalEntityTypeAttributes.put(RegistryHandler.SERAPHIM.get(), SeraphimEntity.setCustomAttributes().create());
         });
     }
 

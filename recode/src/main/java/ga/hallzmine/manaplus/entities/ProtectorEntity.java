@@ -18,9 +18,9 @@ import net.minecraft.world.gen.Heightmap;
 
 import javax.annotation.Nullable;
 
-public class ProtectorEntity extends MonsterEntity {
+public class ProtectorEntity extends CreatureEntity {
 
-    public ProtectorEntity(EntityType<? extends MonsterEntity> type, World worldIn) {
+    public ProtectorEntity(EntityType<? extends CreatureEntity> type, World worldIn) {
         super(type, worldIn);
     }
 

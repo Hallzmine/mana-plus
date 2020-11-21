@@ -1,0 +1,106 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 12, 7]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 37, 6],
+					"cubes": [
+						{"origin": [-4, 33, 2], "size": [8, 8, 8], "uv": [44, 22]}
+					]
+				},
+				{
+					"name": "halo",
+					"parent": "body",
+					"pivot": [0, 37, 10],
+					"cubes": [
+						{"origin": [-8, 29, 10], "size": [16, 16, 0], "uv": [44, 44]}
+					]
+				},
+				{
+					"name": "small_wings",
+					"parent": "body",
+					"pivot": [8, 13, 0]
+				},
+				{
+					"name": "small_right",
+					"parent": "small_wings",
+					"pivot": [1.5, 30.5, -1],
+					"rotation": [0, 0, -15],
+					"cubes": [
+						{"origin": [-2.83784, 13.84475, -1.1], "size": [9, 19, 0], "uv": [18, 49]}
+					]
+				},
+				{
+					"name": "small_left",
+					"parent": "small_wings",
+					"pivot": [-2.5, 29.5, -1],
+					"rotation": [0, 0, 15],
+					"cubes": [
+						{"origin": [-6.41301, 13.94563, -1], "size": [9, 19, 0], "uv": [0, 49]}
+					]
+				},
+				{
+					"name": "medium_wings",
+					"parent": "body",
+					"pivot": [8, 13, 0]
+				},
+				{
+					"name": "medium_right",
+					"parent": "medium_wings",
+					"pivot": [8, 28.5, 1],
+					"rotation": [0, 0, 22.5],
+					"cubes": [
+						{"origin": [2.78983, 6.46091, 0.9], "size": [11, 27, 0], "uv": [0, 22]}
+					]
+				},
+				{
+					"name": "medium_left",
+					"parent": "medium_wings",
+					"pivot": [-8.5, 28.5, 1],
+					"rotation": [0, 0, -22.5],
+					"cubes": [
+						{"origin": [-13.82789, 6.26957, 1], "size": [11, 27, 0], "uv": [22, 22]}
+					]
+				},
+				{
+					"name": "big_wings",
+					"parent": "body",
+					"pivot": [8, 13, 0]
+				},
+				{
+					"name": "big_right",
+					"parent": "big_wings",
+					"pivot": [3.5, 26.5, 0],
+					"rotation": [0, 0, 30],
+					"cubes": [
+						{"origin": [-18.29359, 21.43337, 0], "size": [27, 11, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "big_left",
+					"parent": "big_wings",
+					"pivot": [-0.5, 28.5, 0],
+					"rotation": [0, 0, -30],
+					"cubes": [
+						{"origin": [-9.30448, 23.46927, 0.1], "size": [27, 11, 0], "uv": [0, 11]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -14,7 +14,8 @@
     "fixed_time": 6000,
     "logical_height": 256,
     "effects": "minecraft:overworld",
-    "infiniburn": "minecraft:infiniburn_overworld"
+    "infiniburn": "minecraft:infiniburn_overworld",
+    "disable_mob_generation": false
   },
   "generator": {
     "type": "minecraft:noise",

@@ -52,6 +52,6 @@ side="BOTH"
 [[dependencies.mana-plus]]
 modId="mana-and-artifice"
 mandatory=true
-versionRange="[1.0.8.2,)"
+versionRange="[1.0.8.6,)"
 ordering="NONE"
 side="BOTH"

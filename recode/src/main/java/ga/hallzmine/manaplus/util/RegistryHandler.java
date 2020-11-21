@@ -4,6 +4,7 @@ import ga.hallzmine.manaplus.ManaPlus;
 import ga.hallzmine.manaplus.blocks.*;
 import ga.hallzmine.manaplus.effects.EffectManaSickness;
 import ga.hallzmine.manaplus.entities.ProtectorEntity;
+import ga.hallzmine.manaplus.entities.SeraphimEntity;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -70,6 +71,7 @@ public class RegistryHandler {
 
     //Entity Types
     public static final RegistryObject<EntityType<ProtectorEntity>> PROTECTOR = ENTITY_TYPES.register("protector", () -> EntityType.Builder.create(ProtectorEntity::new, EntityClassification.AMBIENT).size(1.0f, 4.5f).build(new ResourceLocation(ManaPlus.MOD_ID, "protector").toString()));
+    public static final RegistryObject<EntityType<SeraphimEntity>> SERAPHIM = ENTITY_TYPES.register("seraphim", () -> EntityType.Builder.create(SeraphimEntity::new, EntityClassification.AMBIENT).size(3.0f, 4f).build(new ResourceLocation(ManaPlus.MOD_ID, "seraphim").toString()));
 
 
     //Effects
