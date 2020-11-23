@@ -36,8 +36,7 @@ public class SeraphimEntity extends CreatureEntity implements IAnimatable {
         return MobEntity.func_233666_p_()
                 .createMutableAttribute(Attributes.MAX_HEALTH, 60.0D)
                 .createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.25D)
-                .createMutableAttribute(Attributes.ATTACK_DAMAGE, 5.0D)
-                .createMutableAttribute(Attributes.);
+                .createMutableAttribute(Attributes.ATTACK_DAMAGE, 5.0D);
 
     }
 

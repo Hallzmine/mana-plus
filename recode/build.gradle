@@ -35,7 +35,7 @@ minecraft {
     // Use non-default mappings at your own risk. they may not always work.
     // Simply re-run your setup task after changing the mappings to update your workspace.
     //2020/05/14
-    mappings channel: 'snapshot', version: '20200916-1.16.2'
+    mappings channel: 'snapshot', version: '20201028-1.16.3'
     // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
     
     // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
@@ -96,15 +96,14 @@ minecraft {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.3-34.1.23'
+    minecraft 'net.minecraftforge:forge:1.16.4-35.1.1'
 
-    compileOnly 'blank:mana-and-artifice-1.0.8.2:api' //api, compilation only
-    runtimeOnly fg.deobf('blank:mana-and-artifice:1.1.0.3') //mod itself, deobf for runtime
+    compileOnly 'blank:mana-and-artifice-1.1.0.4:api' //api, compilation only
+    runtimeOnly fg.deobf('blank:mana-and-artifice:1.1.0.4') //mod itself, deobf for runtime
 
-    runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:1.16.3-4.0.2.0")
-    compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:1.16.3-4.0.2.0:api")
-    implementation fg.deobf('software.bernie.geckolib:forge-1.16.3-geckolib:3.0.0-beta.8')
-
+    runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:1.16.4-4.0.2.1") // Curios for runtime
+    compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:1.16.4-4.0.2.1:api") // Implements curios' API
+    implementation fg.deobf('software.bernie.geckolib:forge-1.16.4-geckolib:3.0.0-beta.10') //Implements geckolib
 }
 
 // Example for how to get properties into the manifest for reading by the runtime..
