@@ -45,13 +45,13 @@ side="BOTH"
 [[dependencies.mana-plus]]
 modId="minecraft"
 mandatory=true
-versionRange="[1.16.3]"
+versionRange="[1.16.4]"
 ordering="NONE"
 side="BOTH"
 
 [[dependencies.mana-plus]]
 modId="mana-and-artifice"
 mandatory=true
-versionRange="[1.0.8.6,)"
+versionRange="[1.1.0.4,)"
 ordering="NONE"
 side="BOTH"

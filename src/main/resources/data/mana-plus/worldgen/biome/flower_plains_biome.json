@@ -27,8 +27,8 @@
       {
         "type": "mana-plus:protector",
         "weight": 100,
-        "minCount": 10,
-        "maxCount": 10
+        "minCount": 1,
+        "maxCount": 2
       }
     ]
   },

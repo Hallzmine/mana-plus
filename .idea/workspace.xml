@@ -20,237 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9206daa1-4e71-4f4e-8d61-c994084db05a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ma-addon.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/CREDITS.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/changelog.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/java/ga/hallzmine/arsplus/ArsPlus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/java/ga/hallzmine/arsplus/blocks/AumCrop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/java/ga/hallzmine/arsplus/blocks/BlockItemBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/java/ga/hallzmine/arsplus/blocks/CerublossomCrop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/java/ga/hallzmine/arsplus/blocks/DesertNovaCrop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/java/ga/hallzmine/arsplus/blocks/ManaBarrelBlock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/java/ga/hallzmine/arsplus/blocks/TarmaRootCrop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/java/ga/hallzmine/arsplus/blocks/WakebloomCrop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/java/ga/hallzmine/arsplus/items/ItemBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/java/ga/hallzmine/arsplus/items/PlaceholderArsplus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/java/ga/hallzmine/arsplus/items/VintDrink.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/java/ga/hallzmine/arsplus/rituals/effects/RitualEffectFlowerPlains.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/java/ga/hallzmine/arsplus/util/RegistryHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/java/ga/hallzmine/arsplus/util/RitualInit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/META-INF/mods.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/blockstates/aum_crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/blockstates/cerublossom_crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/blockstates/desert_nova_crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/blockstates/magic_crystal.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/blockstates/mana_barrel.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/blockstates/tarma_root_crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/blockstates/wakebloom_crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/lang/en_us.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/models/block/aum_crop/aum_crop_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/models/block/aum_crop/aum_crop_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/models/block/aum_crop/aum_crop_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/models/block/cerublossom_crop/cerublossom_crop_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/models/block/cerublossom_crop/cerublossom_crop_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/models/block/cerublossom_crop/cerublossom_crop_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/models/block/desert_nova_crop/desert_nova_crop_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/models/block/desert_nova_crop/desert_nova_crop_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/models/block/desert_nova_crop/desert_nova_crop_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/models/block/magic_crystal.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/models/block/mana_barrel.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/models/block/tarma_root_crop/tarma_root_crop_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/models/block/tarma_root_crop/tarma_root_crop_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/models/block/tarma_root_crop/tarma_root_crop_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/models/block/wakebloom_crop/wakebloom_crop_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/models/block/wakebloom_crop/wakebloom_crop_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/models/block/wakebloom_crop/wakebloom_crop_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/models/item/aum_seed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/models/item/cerublossom_seed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/models/item/desert_nova_seed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/models/item/magic_crystal.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/models/item/mana_barrel.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/models/item/rift.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/models/item/tarma_root_seed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/models/item/vint_drink.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/models/item/wakebloom_seed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/textures/block/aum_crop/aum_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/textures/block/aum_crop/aum_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/textures/block/aum_crop/aum_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/textures/block/cerublossom_crop/cerublossom_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/textures/block/cerublossom_crop/cerublossom_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/textures/block/cerublossom_crop/cerublossom_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/textures/block/desert_nova_crop/desert_nova_crop_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/textures/block/desert_nova_crop/desert_nova_crop_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/textures/block/desert_nova_crop/desert_nova_crop_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/textures/block/magic_crystal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/textures/block/tarma_root_crop/tarma_root_crop_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/textures/block/tarma_root_crop/tarma_root_crop_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/textures/block/tarma_root_crop/tarma_root_crop_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/textures/block/wakebloom_crop/wakebloom_crop_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/textures/block/wakebloom_crop/wakebloom_crop_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/textures/block/wakebloom_crop/wakebloom_crop_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/textures/item/aum_seed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/textures/item/cerublossom_seed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/textures/item/desert_nova_seed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/textures/item/rift.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/textures/item/tarma_root_seed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/textures/item/vint_drink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/assets/arsplus/textures/item/wakebloom_seed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/data/arsplus/dimension/flower_plains.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/data/arsplus/dimension_type/flower_plains.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/data/arsplus/functions/load.mcfunction" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/data/arsplus/functions/main.mcfunction" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/data/arsplus/functions/mb_placeholder.mcfunction" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/data/arsplus/loot_tables/blocks/aum_crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/data/arsplus/loot_tables/blocks/cerublossom_crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/data/arsplus/loot_tables/blocks/desert_nova_crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/data/arsplus/loot_tables/blocks/mana_barrel.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/data/arsplus/loot_tables/blocks/tarma_root_crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/data/arsplus/loot_tables/blocks/wakebloom_crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/data/arsplus/recipes/aum_seed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/data/arsplus/recipes/cerublossom_seed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/data/arsplus/recipes/desert_nova_alt.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/data/arsplus/recipes/desert_nova_seed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/data/arsplus/recipes/mana_barrel.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/data/arsplus/recipes/rituals/flower_plains.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/data/arsplus/recipes/tamra_root_alt.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/data/arsplus/recipes/tarma_root_seed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/data/arsplus/recipes/vint_drink.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/data/arsplus/recipes/wakebloom_alt.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/data/arsplus/recipes/wakebloom_seed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/data/minecraft/tags/functions/load.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/data/minecraft/tags/functions/tick.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/src/main/resources/pack.mcmeta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/CREDITS.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/changelog.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/libs/mana-and-artifice-1.1.0.4-API.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/libs/mana-and-artifice-1.1.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/logs/debug.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/logs/latest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/java/ga/hallzmine/manaplus/ManaPlus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/java/ga/hallzmine/manaplus/blocks/AumCrop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/java/ga/hallzmine/manaplus/blocks/BlockItemBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/java/ga/hallzmine/manaplus/blocks/CerublossomCrop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/java/ga/hallzmine/manaplus/blocks/DesertNovaCrop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/java/ga/hallzmine/manaplus/blocks/TarmaRootCrop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/java/ga/hallzmine/manaplus/blocks/WakebloomCrop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/java/ga/hallzmine/manaplus/client/model/ProtectorModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/java/ga/hallzmine/manaplus/client/model/SeraphimModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/java/ga/hallzmine/manaplus/client/render/ProtectorRenderer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/java/ga/hallzmine/manaplus/client/render/SeraphimRenderer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/java/ga/hallzmine/manaplus/effects/EffectManaSickness.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/java/ga/hallzmine/manaplus/entities/ProtectorEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/java/ga/hallzmine/manaplus/entities/SeraphimEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/java/ga/hallzmine/manaplus/rituals/RitualEffectFlowerPlains.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/java/ga/hallzmine/manaplus/rituals/RitualEffectOverworld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/java/ga/hallzmine/manaplus/tileentities/HellfireCampfireTileEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/java/ga/hallzmine/manaplus/util/ClientEventBusSubscriber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/java/ga/hallzmine/manaplus/util/EntityRegister.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/java/ga/hallzmine/manaplus/util/RegistryHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/java/ga/hallzmine/manaplus/util/RitualHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/java/ga/hallzmine/manaplus/world/gen/ModEntitySpawns.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/META-INF/mods.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/animations/seraphim_animation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/blockstates/aum_crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/blockstates/cerublossom_crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/blockstates/desert_nova_crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/blockstates/mana_barrel.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/blockstates/tarma_root_crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/blockstates/wakebloom_crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/geo/seraphim.geo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/guide/en_us.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/lang/en_us.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/models/block/aum_crop/aum_crop_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/models/block/aum_crop/aum_crop_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/models/block/aum_crop/aum_crop_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/models/block/cerublossom_crop/cerublossom_crop_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/models/block/cerublossom_crop/cerublossom_crop_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/models/block/cerublossom_crop/cerublossom_crop_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/models/block/desert_nova_crop/desert_nova_crop_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/models/block/desert_nova_crop/desert_nova_crop_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/models/block/desert_nova_crop/desert_nova_crop_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/models/block/mana_barrel.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/models/block/tarma_root_crop/tarma_root_crop_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/models/block/tarma_root_crop/tarma_root_crop_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/models/block/tarma_root_crop/tarma_root_crop_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/models/block/wakebloom_crop/wakebloom_crop_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/models/block/wakebloom_crop/wakebloom_crop_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/models/block/wakebloom_crop/wakebloom_crop_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/models/item/aum_seed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/models/item/cerublossom_seed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/models/item/desert_nova_seed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/models/item/mana_barrel.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/models/item/rift.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/models/item/tarma_root_seed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/models/item/vint_drink.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/models/item/wakebloom_seed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/textures/block/aum_crop/aum_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/textures/block/aum_crop/aum_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/textures/block/aum_crop/aum_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/textures/block/cerublossom_crop/cerublossom_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/textures/block/cerublossom_crop/cerublossom_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/textures/block/cerublossom_crop/cerublossom_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/textures/block/desert_nova_crop/desert_nova_crop_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/textures/block/desert_nova_crop/desert_nova_crop_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/textures/block/desert_nova_crop/desert_nova_crop_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/textures/block/magic_crystal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/textures/block/stone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/textures/block/tarma_root_crop/tarma_root_crop_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/textures/block/tarma_root_crop/tarma_root_crop_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/textures/block/tarma_root_crop/tarma_root_crop_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/textures/block/wakebloom_crop/wakebloom_crop_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/textures/block/wakebloom_crop/wakebloom_crop_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/textures/block/wakebloom_crop/wakebloom_crop_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/textures/entity/angel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/textures/item/aum_seed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/textures/item/cerublossom_seed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/textures/item/desert_nova_seed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/textures/item/rift.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/textures/item/tarma_root_seed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/textures/item/vint_drink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/assets/mana-plus/textures/item/wakebloom_seed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/data/mana-plus/dimension/flower_plains.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/data/mana-plus/loot_tables/blocks/aum_crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/data/mana-plus/loot_tables/blocks/cerublossom_crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/data/mana-plus/loot_tables/blocks/desert_nova_crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/data/mana-plus/loot_tables/blocks/tarma_root_crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/data/mana-plus/loot_tables/blocks/wakebloom_crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/data/mana-plus/recipes/aum_seed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/data/mana-plus/recipes/cerublossom_seed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/data/mana-plus/recipes/desert_nova_alt.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/data/mana-plus/recipes/desert_nova_seed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/data/mana-plus/recipes/rituals/flower-plains.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/data/mana-plus/recipes/rituals/overworld.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/data/mana-plus/recipes/tamra_root_alt.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/data/mana-plus/recipes/tarma_root_seed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/data/mana-plus/recipes/wakebloom_alt.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/data/mana-plus/recipes/wakebloom_seed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/data/mana-plus/vint_drink.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/data/mana-plus/worldgen/biome/flower_plains_biome.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/data/mana-plus/worldgen/configured_feature/flower_plains_feature.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recode/src/main/resources/pack.mcmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mana-plus/recipes/rituals/flower-plains.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/mana-plus/recipes/rituals/flower-plains.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mana-plus/recipes/rituals/overworld.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mana-plus/worldgen/biome/flower_plains_biome.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/mana-plus/worldgen/biome/flower_plains_biome.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -305,19 +82,19 @@
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\programming\ma-addon\manaplus\recode\libs" />
-      <recent name="D:\programming\ma-addon\manaplus\recode\src\main\resources\assets\mana-plus\animations" />
-      <recent name="D:\programming\ma-addon\manaplus\recode\src\main\java\ga\hallzmine\manaplus\client\model" />
-      <recent name="D:\programming\ma-addon\manaplus\recode\src\main\resources\data\mana-plus\recipes\rituals" />
-      <recent name="D:\programming\ma-addon\manaplus\recode\src\main\resources\assets\mana-plus\textures\block" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\programming\ma-addon\manaplus\recode\src\main\resources\assets\mana-plus\animations" />
       <recent name="D:\programming\ma-addon\manaplus\recode\src\main\resources\assets\mana-plus\geo" />
       <recent name="D:\programming\ma-addon\manaplus\recode\src\main\resources\assets\mana-plus\textures\entity" />
       <recent name="D:\programming\ma-addon\manaplus\recode\src\main\resources\assets\mana-plus" />
       <recent name="D:\programming\ma-addon\manaplus\recode\src\main\resources\data\mana-plus" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\programming\ma-addon\manaplus\recode\libs" />
+      <recent name="D:\programming\ma-addon\manaplus\recode\src\main\resources\assets\mana-plus\animations" />
+      <recent name="D:\programming\ma-addon\manaplus\recode\src\main\java\ga\hallzmine\manaplus\client\model" />
+      <recent name="D:\programming\ma-addon\manaplus\recode\src\main\resources\data\mana-plus\recipes\rituals" />
+      <recent name="D:\programming\ma-addon\manaplus\recode\src\main\resources\assets\mana-plus\textures\block" />
     </key>
   </component>
   <component name="RunManager" selected="Application.runClient" />
@@ -356,37 +133,41 @@
     </state>
     <state x="700" y="164" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1605587413450" />
     <state x="2445" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1600440457289" />
+    <state x="657" y="139" key="#runClient" timestamp="1606699268015">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="657" y="139" key="#runClient/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606699268015" />
     <state x="666" y="261" key="FileChooserDialogImpl" timestamp="1604278477908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.860/-1280.53.1280.984@0.0.1920.1040" timestamp="1604278477908" />
     <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603129105385" />
-    <state width="1877" height="189" key="GridCell.Tab.0.bottom" timestamp="1606698341506">
+    <state width="1877" height="189" key="GridCell.Tab.0.bottom" timestamp="1606699881291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="120" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860/-1280.53.1280.984@0.0.1920.1040" timestamp="1604196434909" />
-    <state width="1877" height="189" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606698341506" />
+    <state width="1877" height="189" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606699881291" />
     <state width="1397" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1605640284223" />
     <state width="1877" height="253" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600512438324" />
-    <state width="1877" height="189" key="GridCell.Tab.0.center" timestamp="1606698341506">
+    <state width="1877" height="189" key="GridCell.Tab.0.center" timestamp="1606699881291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="120" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860/-1280.53.1280.984@0.0.1920.1040" timestamp="1604196434909" />
-    <state width="1877" height="189" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606698341506" />
+    <state width="1877" height="189" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606699881291" />
     <state width="1397" height="283" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1605640284223" />
     <state width="1877" height="253" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600512438324" />
-    <state width="1877" height="189" key="GridCell.Tab.0.left" timestamp="1606698341506">
+    <state width="1877" height="189" key="GridCell.Tab.0.left" timestamp="1606699881291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="120" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860/-1280.53.1280.984@0.0.1920.1040" timestamp="1604196434909" />
-    <state width="1877" height="189" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606698341506" />
+    <state width="1877" height="189" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606699881291" />
     <state width="1397" height="283" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1605640284222" />
     <state width="1877" height="253" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600512438324" />
-    <state width="1877" height="189" key="GridCell.Tab.0.right" timestamp="1606698341506">
+    <state width="1877" height="189" key="GridCell.Tab.0.right" timestamp="1606699881291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="120" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860/-1280.53.1280.984@0.0.1920.1040" timestamp="1604196434909" />
-    <state width="1877" height="189" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606698341506" />
+    <state width="1877" height="189" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606699881291" />
     <state width="1397" height="283" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1605640284223" />
     <state width="1877" height="253" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600512438324" />
     <state width="1877" height="113" key="GridCell.Tab.1.bottom" timestamp="1600882993430">
