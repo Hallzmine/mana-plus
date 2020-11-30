@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "arsplus:item/wakebloom_seed"
-  }
-}

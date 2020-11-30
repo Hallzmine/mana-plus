@@ -1,0 +1,44 @@
+{
+  "surface_builder": "minecraft:grass",
+  "depth": 0,
+  "scale": 0.01,
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "precipitation": "rain",
+  "category": "plains",
+  "player_spawn_friendly": false,
+  "effects": {
+    "sky_color": 8032511,
+    "fog_color": 12764927,
+    "water_color": 255,
+    "water_fog_color": 255,
+    "grass_color": 116294,
+    "foliage_color": 117566,
+    "particle": {
+      "options": {
+        "type": "mana-and-artifice:arcane"
+      },
+      "probability": 0.02
+    }
+  },
+  "starts": [],
+  "spawners": {
+    "creature": [
+      {
+        "type": "mana-plus:protector",
+        "weight": 100,
+        "minCount": 10,
+        "maxCount": 10
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [
+      "minecraft:flower_default",
+      "minecraft:patch_grass_jungle",
+      "mana-plus:flower_plains_feature"
+    ]
+  ]
+}

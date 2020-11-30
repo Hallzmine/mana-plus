@@ -1,1 +1,0 @@
-scoreboard objectives add mb_placeholder minecraft.mined:arsplus.mana_barrel

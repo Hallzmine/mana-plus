@@ -1,0 +1,22 @@
+{
+  "Flowering Plains": {
+    "index": 0,
+    "category": "rituals",
+    "sections": [
+      {
+        "type": "title",
+        "value": "Ritual of the Flowering Plains"
+      },
+      {
+        "type": "text",
+        "value": "The name may be nice, but do not be tricked as it is only a SICK imitation of our world created by a demented magician."
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "ritual",
+        "location": "mana-plus:rituals/flower-plains"
+      }
+    ]
+  }
+}

@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "arsplus:block/tarma_root_crop/tarma_root_crop_3"
-  }
-}

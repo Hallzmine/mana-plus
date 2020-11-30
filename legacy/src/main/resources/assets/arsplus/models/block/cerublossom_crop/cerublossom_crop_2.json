@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "arsplus:block/cerublossom_crop/cerublossom_2"
-  }
-}
