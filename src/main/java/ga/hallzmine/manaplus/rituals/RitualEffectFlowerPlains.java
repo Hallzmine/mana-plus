@@ -50,9 +50,9 @@ public class RitualEffectFlowerPlains extends RitualEffect {
     @Override
     protected boolean applyRitualEffect(IRitualContext context) {
         if(context.getWorld() == context.getWorld().getServer().getWorld(RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("mana-plus:flower_plains")))) {
-            getPortalHelper().openPortal(context.getWorld(), Vector3d.copyCentered(context.getCenter()), DyeColor.GREEN, new BlockPos(context.getCaster().getPosX() + 0.5, context.getCaster().getPosY() + 0.5, context.getCaster().getPosZ() + 0.5), RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("minecraft:overworld")), false);
+            getPortalHelper().openPortal(context.getWorld(), Vector3d.copyCentered(context.getCenter()), DyeColor.GREEN, new BlockPos(context.getCaster().getPosX() + 0.5, context.getCaster().getPosY() + 0.5, context.getCaster().getPosZ() + 0.5), RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("minecraft:overworld")), true);
         } else {
-            getPortalHelper().openPortal(context.getWorld(), Vector3d.copyCentered(context.getCenter()), DyeColor.YELLOW, new BlockPos(context.getCaster().getPosX() + 0.5, context.getCaster().getPosY() + 0.5, context.getCaster().getPosZ() + 0.5), RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("mana-plus:flower_plains")), false);
+            getPortalHelper().openPortal(context.getWorld(), Vector3d.copyCentered(context.getCenter()), DyeColor.YELLOW, new BlockPos(context.getCaster().getPosX() + 0.5, context.getCaster().getPosY() + 0.5, context.getCaster().getPosZ() + 0.5), RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("mana-plus:flower_plains")), true);
         }
 
         return true;

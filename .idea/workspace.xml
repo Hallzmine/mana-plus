@@ -20,14 +20,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9206daa1-4e71-4f4e-8d61-c994084db05a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ma-addon.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ga/hallzmine/manaplus/Divine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mana-plus/recipes/rituals/flower-plains.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/mana-plus/recipes/rituals/flower-plains.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mana-plus/recipes/rituals/overworld.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mana-plus/worldgen/biome/flower_plains_biome.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/mana-plus/worldgen/biome/flower_plains_biome.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ga/hallzmine/manaplus/ManaPlus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ga/hallzmine/manaplus/ManaPlus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ga/hallzmine/manaplus/entities/ProtectorEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ga/hallzmine/manaplus/entities/ProtectorEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ga/hallzmine/manaplus/entities/SeraphimEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ga/hallzmine/manaplus/entities/SeraphimEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ga/hallzmine/manaplus/rituals/RitualEffectFlowerPlains.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ga/hallzmine/manaplus/rituals/RitualEffectFlowerPlains.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/models/block/mana_crystal.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/models/item/arcane_crown.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/models/item/asddsa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/models/item/dsdasdasd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/models/item/fdasfa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/models/item/flat_lands_book.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/models/item/hellfire_staff.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/models/item/magic_broom.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/models/item/mana_crystal.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/models/item/manaweaver_wand.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/models/item/runesmith_chisel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/models/item/runesmith_hammer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/models/item/staff_a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/models/item/staff_b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/models/item/staff_c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/models/item/wand.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/textures/block/magic_crystal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/textures/gui/hud_overlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/textures/item/arcane_crown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/textures/item/bok.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/textures/item/crystal-wand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/textures/item/gri.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/textures/item/grit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/textures/item/guide_book.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/textures/item/magic_fork.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/textures/item/manaweaver_wand/stone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/textures/item/manaweaver_wand/wood.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/textures/item/runesmith_tools/chisel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/textures/item/runesmith_tools/hammer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/textures/item/staff_a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/textures/item/staff_a_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mana-and-artifice/textures/item/staff_b.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +105,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/assets/mana-plus/models/item" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25977013" />
@@ -83,18 +114,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\programming\ma-addon\manaplus\src\main\resources\assets\minecraft\models\item" />
       <recent name="D:\programming\ma-addon\manaplus\recode\src\main\resources\assets\mana-plus\animations" />
       <recent name="D:\programming\ma-addon\manaplus\recode\src\main\resources\assets\mana-plus\geo" />
       <recent name="D:\programming\ma-addon\manaplus\recode\src\main\resources\assets\mana-plus\textures\entity" />
       <recent name="D:\programming\ma-addon\manaplus\recode\src\main\resources\assets\mana-plus" />
-      <recent name="D:\programming\ma-addon\manaplus\recode\src\main\resources\data\mana-plus" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\programming\ma-addon\manaplus\src\main\resources\assets\mana-plus\models\item" />
       <recent name="D:\programming\ma-addon\manaplus\recode\libs" />
       <recent name="D:\programming\ma-addon\manaplus\recode\src\main\resources\assets\mana-plus\animations" />
       <recent name="D:\programming\ma-addon\manaplus\recode\src\main\java\ga\hallzmine\manaplus\client\model" />
       <recent name="D:\programming\ma-addon\manaplus\recode\src\main\resources\data\mana-plus\recipes\rituals" />
-      <recent name="D:\programming\ma-addon\manaplus\recode\src\main\resources\assets\mana-plus\textures\block" />
     </key>
   </component>
   <component name="RunManager" selected="Application.runClient" />
@@ -128,6 +159,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1600110707838" />
+    <state x="693" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606759600429">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="693" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606759600429" />
     <state x="700" y="164" key="#com.intellij.ide.util.MemberChooser" timestamp="1605587413450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -142,32 +177,32 @@
     </state>
     <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.860/-1280.53.1280.984@0.0.1920.1040" timestamp="1604278477908" />
     <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603129105385" />
-    <state width="1877" height="189" key="GridCell.Tab.0.bottom" timestamp="1606699881291">
+    <state width="1877" height="143" key="GridCell.Tab.0.bottom" timestamp="1606791737244">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="120" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860/-1280.53.1280.984@0.0.1920.1040" timestamp="1604196434909" />
-    <state width="1877" height="189" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606699881291" />
+    <state width="1877" height="143" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606791737244" />
     <state width="1397" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1605640284223" />
     <state width="1877" height="253" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600512438324" />
-    <state width="1877" height="189" key="GridCell.Tab.0.center" timestamp="1606699881291">
+    <state width="1877" height="143" key="GridCell.Tab.0.center" timestamp="1606791737244">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="120" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860/-1280.53.1280.984@0.0.1920.1040" timestamp="1604196434909" />
-    <state width="1877" height="189" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606699881291" />
+    <state width="1877" height="143" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606791737244" />
     <state width="1397" height="283" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1605640284223" />
     <state width="1877" height="253" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600512438324" />
-    <state width="1877" height="189" key="GridCell.Tab.0.left" timestamp="1606699881291">
+    <state width="1877" height="143" key="GridCell.Tab.0.left" timestamp="1606791737243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="120" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860/-1280.53.1280.984@0.0.1920.1040" timestamp="1604196434909" />
-    <state width="1877" height="189" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606699881291" />
+    <state width="1877" height="143" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606791737243" />
     <state width="1397" height="283" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1605640284222" />
     <state width="1877" height="253" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600512438324" />
-    <state width="1877" height="189" key="GridCell.Tab.0.right" timestamp="1606699881291">
+    <state width="1877" height="143" key="GridCell.Tab.0.right" timestamp="1606791737244">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="120" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860/-1280.53.1280.984@0.0.1920.1040" timestamp="1604196434909" />
-    <state width="1877" height="189" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606699881291" />
+    <state width="1877" height="143" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606791737244" />
     <state width="1397" height="283" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1605640284223" />
     <state width="1877" height="253" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600512438324" />
     <state width="1877" height="113" key="GridCell.Tab.1.bottom" timestamp="1600882993430">
@@ -198,9 +233,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1600188006234" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603195384587">
+    <state x="623" y="228" width="672" height="675" key="search.everywhere.popup" timestamp="1606740143345">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603195384587" />
+    <state x="623" y="228" width="672" height="675" key="search.everywhere.popup/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606740143345" />
   </component>
 </project>
